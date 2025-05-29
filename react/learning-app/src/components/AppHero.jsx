@@ -1,4 +1,3 @@
-import '../components/Header.css'
 import HeroImg from '../img/HeroPng.png'
 
 const infoHeroStyle = {

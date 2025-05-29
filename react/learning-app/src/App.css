@@ -8,24 +8,58 @@ body {
   padding: 45px;
 }
 
-h1{
+h1 {
   font-size: 60px;
 }
 
-span{
+span {
   font-size: 20px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  text-wrap: nowrap;
 }
-.Service-Section{
+
+.Service-Section {
   margin-top: 20px;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
+Button {
+  padding: 15px 25px;
+  border-radius: 1em;
+  border: 1px solid #000;
+  width: 40%;
+  cursor: pointer;
+
+  transition: .5s ease-in-out;
+}
+
+.Light-Button {
+  background-color: #fff;
+  color: #000;
+}
+
+.Light-Button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.Dark-Button {
+  background-color: #000;
+  color: #fff;
+}
+
+.Dark-Button:hover {
+  background-color: #fff;
+  color: #000;
+}
+

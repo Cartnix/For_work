@@ -1,10 +1,10 @@
 import Card from "./Card";
-import Card1 from "./img/Card1.png";
-import Card2 from "./img/Card2.png";
-import Card3 from "./img/Card3.png";
-import Card4 from "./img/Card4.png";
-import Card5 from "./img/Card5.png";
-import Card6 from "./img/Card6.png";
+import Card1 from "../img/Card1.png";
+import Card2 from "../img/Card2.png";
+import Card3 from "../img/Card3.png";
+import Card4 from "../img/Card4.png";
+import Card5 from "../img/Card5.png";
+import Card6 from "../img/Card6.png";
 
 
 const cardsData = [

@@ -1,4 +1,4 @@
-import HappenPng from './img/Happen.png'
+import HappenPng from '../img/Happen.png'
 
 const HappenStyle = {
     display: 'flex',
@@ -8,6 +8,7 @@ const HappenStyle = {
     borderRadius: '20px',
     marginTop: '80px',
     padding: '20px',
+    height: '350px',
 }
 
 const HappenTextStyle = {
@@ -16,7 +17,9 @@ const HappenTextStyle = {
     justifyContent: 'space-between',
     height: '250px',
     width: '50%',
+
 }
+
 
 export default function HappenApp() {
     return (
@@ -24,10 +27,10 @@ export default function HappenApp() {
             <div style={HappenTextStyle}>
                 <h2>Let’s make things happen</h2>
                 <span>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online</span>
-                <button>Get your free proposal</button>
+                <button className='Dark-Button'>Get your free proposal</button>
             </div>
             <div>
-                <img src={HappenPng} alt="" />
+                <img src={HappenPng} alt=""/>
             </div>
         </div>
     )

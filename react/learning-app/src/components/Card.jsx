@@ -5,7 +5,7 @@ export default function Card({ title, imageSrc, ColorIndex }) {
         color: colors[ColorIndex % colors.length] === '#191A23' ? '#fff' : '#000',
         borderRadius: '20px',
         padding: '25px 40px',
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.8)',
+        boxShadow: '0 8px 0 rgba(0, 0, 0, 0.45)',
         display: 'flex',
         justifyContent: 'space-between',
         border: '1px solid #000',
@@ -25,7 +25,7 @@ export default function Card({ title, imageSrc, ColorIndex }) {
     return (
         <div style={CardStyle}>
             <h3 style={cardTitleStyle}>{title}</h3>
-            <img src={imageSrc} alt="" style={imgStyle}/>
+            <img src={imageSrc} alt="" style={imgStyle} />
         </div>
     )
 

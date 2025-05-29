@@ -1,5 +1,4 @@
 import logo from '../img/logo_dark.png'
-import '../components/Header.css'
 
 const headerStyle = {
   display: 'flex',
