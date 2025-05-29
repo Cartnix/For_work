@@ -1,0 +1,19 @@
+
+const GreenBoxStyle = {
+    backgroundColor: '#B9FF66', 
+    padding: '10px 15px',
+    color: '#000',            
+    display: 'inline-block',
+    borderRadius: '4px',
+}
+
+export default function CardTitle({ title, description }) {
+    return (
+        <div style={{ display: 'flex', gap: '40px', width: '60%', marginTop: '80px' }}>
+            <div style={GreenBoxStyle}>
+                <h2>{title}</h2>
+            </div>
+            <p>{description}</p>
+        </div>
+    )
+}

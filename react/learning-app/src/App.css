@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  padding: 45px;
+}
+
+h1{
+  font-size: 60px;
+}
+
+span{
+  font-size: 20px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.Service-Section{
+  margin-top: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -1,0 +1,15 @@
+Button{
+    padding: 15px 25px;
+    border-radius: 1em;
+    border: 1px solid #000;
+}
+
+.Light-Button{
+    background-color: #fff;
+    color: #000;
+}
+
+.Dark-Button{
+    background-color: #000;
+    color: #fff;
+}
