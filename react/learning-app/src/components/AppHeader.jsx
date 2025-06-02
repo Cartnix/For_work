@@ -1,4 +1,4 @@
-import logo from '../img/logo_dark.png'
+import logo from '../img/logo_Black.png'
 
 const headerStyle = {
   display: 'flex',

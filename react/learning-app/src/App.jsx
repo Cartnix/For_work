@@ -6,12 +6,16 @@ import CardContainer from './components/CardsContainer'
 import HappenApp from './components/HappenApp'
 import CaseApp from './components/CaseApp'
 import Accordion from './components/Accordion'
+import TeamGrid from './components/TeamContainerApp'
+import Contact from './components/ContactApp'
+import AppFooter from './components/AppFooter'
 import Amazon from './img/Amazon.png'
 import Netflix from './img/Netflix.png'
 import Dribble from './img/dribble.png'
 import Zoom from './img/ZOOM.png'
 import NubSpot from './img/NubSpot.png'
 import Notion from './img/Notion.png'
+
 
 function App() {
 
@@ -37,7 +41,11 @@ function App() {
       <CardTitle title="Our Working Process" description="Step-by-Step Guide to Achieving Your Business Goals" />
       <Accordion />
       <CardTitle title="Team" description="Meet the skilled and experienced team behind our successful digital marketing strategies" />
-
+      <TeamGrid />
+      <CardTitle title="Testimonials" description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services" />
+      <CardTitle title="Contact Us" description="Connect with Us: Let's Discuss Your Digital Marketing Needs" />
+      <Contact />
+      <AppFooter />
     </div>
 
   )
