@@ -1,0 +1,141 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  position: relative;
+  width: 350px;
+  margin-bottom: 30px;
+}
+
+.input-icon input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: transparent;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-icon input:focus {
+  border-bottom-color: #35AFF4;
+}
+
+.icon-img {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.toggle-password {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.toggle-password:hover {
+  opacity: 1;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.forgot {
+  color: #35AFF4;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background: #4070F4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #199edc;
+}
+
+.register-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-text a {
+  color: #35AFF4;
+  text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  .modal {
+    align-items: flex-start;    
+    padding-top: 30px;          
+  }
+
+  .modal-content {
+    width: 95%;       
+    max-width: 320px; 
+  }
+
+  .input-icon {
+    width: 100%;      
+    max-width: 280px; 
+  }
+  
+  .input-icon input {
+    padding: 10px 40px 10px 40px; 
+  }
+}

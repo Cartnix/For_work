@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./toogle.js" defer></script>
+    <link rel="stylesheet" href="./modal.css">
+    <title>Modal Reg</title>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-content">
+            <h2>Вход</h2>
+
+            <div class="input-icon">
+                <img src="./email.png" alt="Email icon" class="icon-img" />
+                <input type="email" placeholder="Введите свой email" />
+            </div>
+
+            <div class="input-icon">
+                <img src="./lock.png" class="icon-img" alt="lock">
+                <input id="password" type="password" placeholder="Введите пароль" />
+                <img src="./eye-off.png" class="toggle-password" id="togglePassword" alt="Показать пароль" />
+            </div>
+
+
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox" />
+                    Запомнить меня
+                </label>
+                <a href="#" class="forgot">Забыли пароль?</a>
+            </div>
+
+            <button class="login-btn">Войти</button>
+
+            <p class="register-text">Уже есть аккаунт? <a href="#">Войти</a></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
