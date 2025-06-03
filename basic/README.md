@@ -1,0 +1,1 @@
+Work with basic HTML CSS, (JS sometimes) without any frameworks or something like that.
