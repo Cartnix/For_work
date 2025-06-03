@@ -14,16 +14,26 @@ export default function AppFooter() {
             marginTop: '40px',
         }}>
             <div>
-                <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <img src={FooterLogo} alt="" />
-                    <ul style={{listStyleL: 'none', color: '#fff', display: 'flex', gap: '20px'}}>
-                        <li>About us</li>
-                        <li>Services</li>
-                        <li>Use cases</li>
-                        <li>Prices</li>
-                        <li>Blog</li>
+                    <ul style={{ listStyleL: 'none', color: '#fff', display: 'flex', gap: '20px' }}>
+                        <li><a href="#" style={{color:'#fff'}}>
+                            About us
+                        </a></li>
+                        <li><a href="#" style={{color:'#fff'}}>
+                            Services
+                        </a></li>
+                        <li><a href="#" style={{color:'#fff'}}>
+                            Use cases
+                        </a></li>
+                        <li><a href="#" style={{color:'#fff'}}>
+                            Prices
+                        </a></li>
+                        <li><a href="#" style={{color:'#fff'}}>
+                            Blog
+                        </a></li>
                     </ul>
-                    <div style={{gap: '10px', display: 'flex'}}>
+                    <div style={{ gap: '10px', display: 'flex' }}>
                         <img src={Icon1} alt="LinkedIn" />
                         <img src={Icon2} alt="FaceBook" />
                         <img src={Icon3} alt="Twitter" />
@@ -31,9 +41,9 @@ export default function AppFooter() {
                 </div>
             </div>
 
-            <div style={{marginTop: '20px', display: 'flex', justifyContent: 'space-between'}}>
+            <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'space-between' }}>
                 <div>
-                    
+
                 </div>
                 <div></div>
             </div>

@@ -27,11 +27,21 @@ export default function AppHeader() {
       </div>
       <nav>
         <ul style={navListStyle}>
-          <li>About us</li>
-          <li>Services</li>
-          <li>Use cases</li>
-          <li>Prices</li>
-          <li>Blog</li>
+          <li><a href="#">
+            About us
+            </a></li>
+          <li><a href="#">
+            Services
+            </a></li>
+          <li><a href="#">
+            Use cases
+            </a></li>
+          <li><a href="#">
+            Prices
+            </a></li>
+          <li><a href="#">
+            Blog
+            </a></li>
           <button className='Button Light-Button'>Request a quote</button>
 
         </ul>

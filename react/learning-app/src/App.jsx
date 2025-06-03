@@ -7,6 +7,7 @@ import HappenApp from './components/HappenApp'
 import CaseApp from './components/CaseApp'
 import Accordion from './components/Accordion'
 import TeamGrid from './components/TeamContainerApp'
+import TestimonialSlider from './components/Slider'
 import Contact from './components/ContactApp'
 import AppFooter from './components/AppFooter'
 import Amazon from './img/Amazon.png'
@@ -16,6 +17,7 @@ import Zoom from './img/ZOOM.png'
 import NubSpot from './img/NubSpot.png'
 import Notion from './img/Notion.png'
 
+// https://www.figma.com/design/sbD8C5UBpqzRJkQwXRgbUZ/Positivus-Landing-Page-Design--Community-?node-id=330-762&t=kEcTBygOs02ER6m8-0
 
 function App() {
 
@@ -43,6 +45,7 @@ function App() {
       <CardTitle title="Team" description="Meet the skilled and experienced team behind our successful digital marketing strategies" />
       <TeamGrid />
       <CardTitle title="Testimonials" description="Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services" />
+      <TestimonialSlider />
       <CardTitle title="Contact Us" description="Connect with Us: Let's Discuss Your Digital Marketing Needs" />
       <Contact />
       <AppFooter />
